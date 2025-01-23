@@ -1,6 +1,9 @@
 # Authentication Form
 
-This is a free authentication form for login/register using: **Next.js, Prisma, Shadcn, React Hook Form, Auth.js and Zod**.
+
+This is an authentication form for login/register. Feel free to use in your project. 😀
+
+ Made using: **Next.js, Prisma, Shadcn, React Hook Form, Auth.js and Zod**
 
 <img src="./src/public/images/auth-form-img.jpg" width="700">
 
@@ -28,4 +31,8 @@ npx prisma migrate dev
 5. Generate the auth secret key:
 ```sh
 npx auth secret
+```
+6. Run the application:
+```sh
+npm run dev
 ```
